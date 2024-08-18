@@ -8,7 +8,7 @@ const NewsItem=(props)=>{
       <div className='my-3'>
         <div className="card" >
           <span className="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{left:'90%',zIndex:'1'}}>{source}</span>
-  <img src={!imageUrl?"https://images.firstpost.com/uploads/2024/06/Vivo-launches-the-X-Fold3-Pro-its-first-foldable-phone-in-India-with-a-carbon-fibre-hinge-check-pricing-2024-06-5409e83d15ee8cc82c81bcaf6982d916-1200x675.jpg?im=FitAndFill=(1200,675)":imageUrl} className="card-img-top" alt="..."/>
+  <img src={!imageUrl?"https://cdn.pixabay.com/photo/2022/11/01/11/30/breaking-news-7562021_1280.jpg":imageUrl} className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">{title}...</h5>
     <p className="card-text">{description}</p>
