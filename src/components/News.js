@@ -17,8 +17,8 @@ const News = (props) => {
     props.setProgress(10);
     
     // Update URL to use your deployed API 
-    //https://projectapi-dfv8.onrender.com/news
-    const url = `https://projectapi-production-c588.up.railway.app/news?country=${props.country}&category=${props.category}&page=${page}&pageSize=${props.pageSize}`;
+     //https://projectapi-dfv8.onrender.com/news
+    const url = `https://projectapi-dfv8.onrender.com/news?country=${props.country}&category=${props.category}&page=${page}&pageSize=${props.pageSize}`;
 
     setLoading(true);
     const data = await fetch(url);
